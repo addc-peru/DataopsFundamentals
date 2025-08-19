@@ -1,0 +1,12 @@
+{
+	"name": "Cnx_adls_container",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adlssalesstore.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQENGOUFDNDlDLUJBOUEtNEQ1Ni1CMDE1LTY1MTg3RTdCNzE5N181NTQzYWQ5Ny03ZjExLTQ0NjgtODZkMC05M2I2OGI3YzExYmQiDQp9"
+		}
+	}
+}
