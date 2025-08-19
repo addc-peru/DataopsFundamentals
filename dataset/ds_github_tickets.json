@@ -1,0 +1,79 @@
+{
+	"name": "ds_github_tickets",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Cnx_github_sales_store",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "dataset.csv"
+			},
+			"columnDelimiter": ";",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": ""
+		},
+		"schema": [
+			{
+				"name": "VentaID",
+				"type": "String"
+			},
+			{
+				"name": "Factura",
+				"type": "String"
+			},
+			{
+				"name": "Fecha_Orden",
+				"type": "String"
+			},
+			{
+				"name": "Fecha_Entrega",
+				"type": "String"
+			},
+			{
+				"name": "Fecha_Envio",
+				"type": "String"
+			},
+			{
+				"name": "Estado",
+				"type": "String"
+			},
+			{
+				"name": "Cliente_Code",
+				"type": "String"
+			},
+			{
+				"name": "Tipo_Cliente",
+				"type": "String"
+			},
+			{
+				"name": "Nombres",
+				"type": "String"
+			},
+			{
+				"name": "Apellidos",
+				"type": "String"
+			},
+			{
+				"name": "Vendedor",
+				"type": "String"
+			},
+			{
+				"name": "Departamento",
+				"type": "String"
+			},
+			{
+				"name": "Metodo_Pago",
+				"type": "String"
+			},
+			{
+				"name": "Subtotal",
+				"type": "String"
+			}
+		]
+	}
+}

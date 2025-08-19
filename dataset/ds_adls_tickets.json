@@ -1,0 +1,23 @@
+{
+	"name": "ds_adls_tickets",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Cnx_adls_container",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "tickets.csv",
+				"fileSystem": "sales-store"
+			},
+			"columnDelimiter": ";",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
