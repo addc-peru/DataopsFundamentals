@@ -1,0 +1,12 @@
+{
+	"name": "Cnx_github_sales_store",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/addc-peru/DataopsFundamentals/refs/heads/main/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
